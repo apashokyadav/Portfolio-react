@@ -4,7 +4,7 @@ import { SocialLinks } from "./components/SocialLinks";
 import Portfolio from "./components/Portfolios"
 import About from "./components/About";
 import Experience from "./components/Experience";
-import Contact from "./components/Contacts"
+import Contacts from "./components/Contacts"
 function App() {
   return (
     <div >
@@ -13,7 +13,7 @@ function App() {
       <About/>
       <Portfolio/>
       <Experience/>
-      <Contact/>
+      <Contacts/>
       <SocialLinks/>
     </div>
   );
