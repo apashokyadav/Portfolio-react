@@ -24,9 +24,9 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-20">
-          My name is Vishnu Jangid, and I am a passionate front-end developer I
-          have a solid foundation in HTML, CSS, and JavaScript, and I am
-          constantly expanding my knowledge of front-end frameworks like React.
+          My name is Vishnu Jangid, and I am a passionate full-stack developer I
+          have a solid foundation in Frontend-framworks,javascript,React.js and I am
+          constantly expanding my knowledge of back-end.
         </p>
 
         <br />

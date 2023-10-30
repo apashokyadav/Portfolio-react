@@ -17,8 +17,7 @@ export const Home=()=> {
             I'm a Full Stack Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md ">
-          I am looking for an SDE role. I am a final year B.Tech student
-           at IIIT Una. I have experience in Frontend along with a good grasp of data structure and algorithms. It would be a great help
+            I am looking for an SDE role. I done my B.Tech from  IIIT Una. I have experience in Frontend along with a good grasp of data structure and algorithms. It would be a great help
            if you could please refer me to your organization.
           </p>
           <div>
