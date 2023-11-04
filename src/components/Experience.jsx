@@ -5,6 +5,7 @@ import javascript from '../assets/javascript.png'
 import reactpic from '../assets/react.png'
 import github from '../assets/github.png'
 import tailwind from '../assets/tailwind.png'
+import MongoDB from '../assets/MongoDB.png'
 
 const Experience = () => {
  
@@ -43,6 +44,12 @@ const Experience = () => {
             id: 6,
             src:github,
             title:'GitHub',
+            style:'shadow-gray-400'
+        },
+        {
+            id: 7,
+            src:MongoDB,
+            title:'MongoDB',
             style:'shadow-gray-400'
         },
     ]

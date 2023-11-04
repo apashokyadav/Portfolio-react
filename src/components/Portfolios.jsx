@@ -7,18 +7,21 @@ const portfolio = () => {
   const list = [
     {
       id: 1,
+      name:"Memorify",
       src: Memorify,
       Demolink: "https://jazzy-frangipane-b317d5.netlify.app",
       codelink: "https://github.com/Vis01/Memorify",
     },
     {
       id: 2,
+      name:"Ecommerce",
       src: Ecommerce,
       Demolink: "https://github.com/Vis01",
       codelink: "https://github.com/Vis01",
     },
     {
       id: 3,
+      name:"crowdfunding",
       src: crowdfunding,
       Demolink: "https://github.com/Vis01/Crowdfunding-using-blockchain",
       codelink: "https://github.com/Vis01/Crowdfunding-using-blockchain",
@@ -48,7 +51,7 @@ const portfolio = () => {
           className="grid sm:grid-cols-2 md:grid-cols-3 gap-8
               px-12 sm:px-0  "
         >
-          {list.map(({ id, src, Demolink, codelink }) => (
+          {list.map(({ id,name, src, Demolink, codelink }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -56,15 +59,20 @@ const portfolio = () => {
                 className="rounded-md duration-200
                   hover:scale-105  "
               />
+              <div className="flex items-center justify-center  shadow-gray-600 rounded-lg">
+                  <button className="w-1/2 px-3 py-.5 m-2 duration-200 hover:scale-105 ">
+                    {name}
+                  </button>
+              </div>
               <div className="flex items-center justify-center ">
                 <a href={Demolink}>
-                  <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 ">
+                  <button className="w-1/2 px-8 py-.5 m-2 duration-200 hover:scale-105 ">
                     Demo
                   </button>
                 </a>
 
                 <a href={codelink}>
-                  <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 ">
+                  <button className="w-1/2 px-8 py-.5 m-2 duration-200 hover:scale-105 ">
                     Code
                   </button>
                 </a>
