@@ -4,6 +4,7 @@ import Memorify from "../assets/portfolios/Memorify.jpg";
 import crowdfunding from "../assets/portfolios/crowdfunding.png";
 import FoodVilla from "../assets/portfolios/FoodVilla.png";
 import myyoutube from "../assets/portfolios/my-youtube.png"
+import Cryptobloglogo from "../assets/portfolios/Crypto-blog-logo.png"
 
 const portfolio = () => {
   const list = [
@@ -23,20 +24,27 @@ const portfolio = () => {
     },
     {
       id: 3,
+      name:"Crypto-Blog",
+      src: Cryptobloglogo,
+      Demolink: "https://main--vis-crypto-blog.netlify.app/",
+      codelink: "https://github.com/Vis01/Crypto-Blog",
+    },
+    {
+      id: 4,
       name:"Memorify",
       src: Memorify,
       Demolink: "https://jazzy-frangipane-b317d5.netlify.app",
       codelink: "https://github.com/Vis01/Memorify",
     },
     {
-      id: 4,
+      id: 5,
       name:"Ecommerce",
       src: Ecommerce,
       Demolink: "https://github.com/Vis01",
       codelink: "https://github.com/Vis01",
     },
     {
-      id: 5,
+      id: 6,
       name:"crowdfunding",
       src: crowdfunding,
       Demolink: "https://github.com/Vis01/Crowdfunding-using-blockchain",
