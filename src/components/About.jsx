@@ -24,18 +24,17 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-20">
-          My name is Vishnu Jangid, and I am a passionate full-stack developer I
-          have a solid foundation in Frontend-framworks,javascript,React.js and I am
-          constantly expanding my knowledge of back-end.
+        I am a Full-Stack Developer specializing in Java, Spring Boot, and React.js, passionate about building scalable, high-performance applications. 
+        With expertise in secure authentication, RESTful APIs, and database management, I craft seamless, efficient, and user-centric solutions. My experience spans frontend, backend, and system optimization, ensuring clean architecture and maintainable code.
+
         </p>
 
         <br />
 
         <p className="text-xl ">
-          I am deeply fascinated by user-centric design and strive to create
-          intuitive and visually appealing interfaces. Moreover, I am a team
-          player and love collaborating with others to solve problems and
-          achieve shared goals.
+        
+        I’ve developed multilingual platforms, video streaming apps, and performance-driven web solutions that enhance user engagement.
+        Always eager to innovate, collaborate, and solve complex problems—let’s build something amazing together! 
         </p>
       </div>
     </div>
